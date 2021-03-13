@@ -1,0 +1,2 @@
+require('./modules/8ball.js');
+require('./modules/memeImg.js');

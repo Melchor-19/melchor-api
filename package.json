@@ -1,0 +1,24 @@
+{
+  "name": "melchor-api",
+  "version": "0.0.1",
+  "description": "Mi primer proyecto de Nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melchor-19/melchor-api.git"
+  },
+  "keywords": [
+    "memes",
+    "facts",
+    "jokes"
+  ],
+  "author": "Melchor#0019",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Melchor-19/melchor-api/issues"
+  },
+  "homepage": "https://github.com/Melchor-19/melchor-api#readme"
+}
