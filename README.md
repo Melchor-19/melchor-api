@@ -1,2 +1,2 @@
 # melchor-api
-Mi primer proyecto de Nodejs
+Mi primer proyecto de Node.js
