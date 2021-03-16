@@ -1,8 +1,11 @@
-const fact = require('../config/datos.json');
-let animals = fact.animals
-let result = animals[Math.floor(Math.random() * (animals.length))];
+function factsAnimals() {
 /**
- * Datos informativos y/o curiosos
+ * @name factsAnimals 
+ * @description Devuenve datos interesantes de animales
  * @returns {string}
- */
-console.log('Facts - ' + result)
+*/
+  const animals = require('../config/datos.json').animals;
+  let respAnimal = animals[Math.floor(Math.random() * (animals.length))]; 
+  return respAnimal;
+}
+module.exports = factsAnimals;
